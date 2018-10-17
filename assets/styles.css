@@ -1,0 +1,5 @@
+.main-container{
+    background-color: #efefef;
+    display: grid;
+    grid-template-columns: auto auto;
+}
