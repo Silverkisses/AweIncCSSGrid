@@ -1,5 +1,21 @@
 .main-container{
     background-color: #efefef;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 20vw auto;
+}
+
+.section-container{
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.nav-container{
+    display: grid;
+    grid-template: 1fr;
+    position: fixed;
+}
+
+body{
+    margin:0;
 }
