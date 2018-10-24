@@ -40,3 +40,7 @@
 body{
     margin:0;
 }
+
+.section--text__rotate{
+    transform: rotate(-45deg);
+}
