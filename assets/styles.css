@@ -1,5 +1,4 @@
 .main-container{
-    background-color: #efefef;
     display: grid;
     grid-template-columns: 20vw auto;
 }
@@ -15,7 +14,29 @@
     grid-template: 1fr;
     position: fixed;
 }
+.section--text {
+    color: blue;
+    line-height: 1.5rem;
+}
 
+.aside{
+    background-color: lightblue;
+}
+.aside__list{
+    list-style: none;
+}
+.aside ul{
+    display:block;
+    width: 100%;
+}
+.aside li{
+    padding: .5rem 0;
+}
+.aside ul li a:hover{
+    text-decoration: none;
+    color: #99ca45;
+    font-size: 1.25rem;
+}
 body{
     margin:0;
 }
